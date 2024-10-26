@@ -1,0 +1,28 @@
+Table spending_raw {
+  "City" varchar
+  "Date" varchar
+  "Card Type" varchar
+  "Exp Type" varchar
+  "Gender" varchar
+  "Amount" varchar
+}
+
+Table unemployment_raw {
+  "Region" varchar [note: "Region of the country"]
+  "Date" varchar [note: "Month of the record"]
+  "Frequency" varchar
+  "Estimated Unemployment Rate (%)" varchar
+  "Estimated Employed" varchar
+  "Estimated Labour Participation Rate (%)" varchar
+  "Area" varchar
+}
+
+Table spending {
+  "State" varchar [note: "Original Region column"]
+  "Month" varchar [note: "]
+  "Card Type" varchar
+  "Exp Type" varchar
+  "Gender" varchar
+  "Amount" varchar
+}
+
