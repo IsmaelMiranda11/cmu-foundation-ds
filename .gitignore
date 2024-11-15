@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+project - dataprocessing
+
+project - dataprocessing/CMU-academy-data-collection-and-pre-processing-project-1.pdf
+
 # Distribution / packaging
 .Python
 build/
